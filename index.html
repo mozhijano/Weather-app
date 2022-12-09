@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Parcel Sandbox</title>
-		<meta charset="UTF-8" />
-		<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -58,7 +58,9 @@
               <div class="col details" id="current-day">Tuesday 13:00</div>
             </div>
             <div class="row">
-              <div class="col details" id="weather-description">Clear with periodic clouds</div>
+              <div class="col details" id="weather-description">
+                Clear with periodic clouds
+              </div>
             </div>
           </div>
         </div>
@@ -67,18 +69,10 @@
             <img src="images/sunny_s_cloudy.png" alt="" class="weather-icon" />
           </div> -->
           <div class="col-8 text-start">
-            <span class="degree-sign" id="weather-degree">19</span
-            ><span class="align-top">
-							<span>&#8451;</span>
-							<!-- <a href="#" id="celsius-link">&#8451;</a>  -->
-							<!-- |
-              <a href="#" id="fahrenheit-link">&#8457;</a></span
-            > -->
+            <span class="degree-sign" id="weather-degree">19</span>
+            <span class="align-top">&#8451;</span>
           </div>
           <div class="col-4 wt-desc text-start">
-            <!-- <div class="row">
-              <div class="col">Precipitation: 0%</div>
-            </div> -->
             <div class="row">
               <div class="col">Humidity: <span id="humidity">80</span>%</div>
             </div>
@@ -88,6 +82,12 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/mozhijano/Weather-app" target="_blank"
+        >Open-source code</a
+      >
+      by Mozhgan Janoosepah
     </div>
     <script src="src/index.js"></script>
   </body>
